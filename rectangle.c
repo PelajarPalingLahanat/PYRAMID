@@ -22,6 +22,6 @@ int main(){
 		}
 		printf("\n");
 	}
-	printf("\n\nWidth : %d unit\nHeight : %d unit\nArea : %d unit",a,b,a * b);
+	printf("\n\nDimension : %d (Width) x %d (Height) \nWidth : %d unit\nHeight : %d unit\nArea : %d unit\nPerimeter : %d unit",a,b,a,b,a * b,2 * a + 2 * b);
 
 }
